@@ -1,0 +1,100 @@
+﻿*{
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(253, 249, 216);
+}
+.menu {
+    position: relative;
+    margin: 5% 0 0 10%;
+    width: 15%;
+    min-width: 100px;
+    min-height: 30px;
+    float: left;
+}
+.text {
+    margin: 5% 10% 0 30%;
+    position: relative;
+    }
+nav {
+    z-index: 2;
+    padding: 0 10% 0 10%;
+    position: sticky;
+    top: 1%;
+    width: 100%;
+    height: 10%;
+    min-width: 150px;
+    min-height: 30px;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+li {
+    margin: 1px 1px 1px 1px;
+    text-decoration: none;
+    border: 2px solid skyblue;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0 10px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: skyblue;
+    background-size: 100%;
+    color: black;
+    font-size: 30px;
+}
+li p{
+    text-align:center;
+    color: black;
+}
+li:hover {
+    background-color: rgb(250, 203, 116);
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+.contacts h3{
+    text-align: center;
+}
+.contacts {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.adress h4{
+    margin: 0;
+    text-align: center;
+}
+.adress {
+    position: relative;
+    width: 100%;
+    font-size: large;
+    text-align: center;
+}
+.map {
+    position: relative;
+    width: 100%;
+}
+.map img{
+    width: 100%;
+    height: auto;
+}
+.info {
+    position: relative;
+    top: 5%;
+    padding: 0 0 70px;
+    font-size: 30px;
+    text-shadow: 0 4px 4px grey;
+}
+.info img {
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    position: relative;
+}
+footer {
+    text-align: center;
+    padding: 32px 0px 0px 0px;
+}
